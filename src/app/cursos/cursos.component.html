@@ -1,3 +1,20 @@
-<p>cursos works!</p>
+<p>Lista de cursos do portal {{ nomePortal }}</p>
+<!-- Interpolação ou doublemustache -->
+<!-- <ul>
+    <li>Java</li>
+    <li>Node</li>
+    <li>Grunt</li>
+</ul> -->
+
+
+<ul>
+	<li *ngFor="let curso of cursos">
+	{{ curso }}
+	</li>
+</ul>
+
+
+<!-- <p>Cursos component</p> -->
+<app-curso-detalhe></app-curso-detalhe>
 <!-- <app-curso-detalhe></app-curso-detalhe> -->
 <!-- <app-cursos></app-cursos> -->

@@ -8,8 +8,7 @@ import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component';
 @NgModule({
   declarations: [
     CursosComponent,
-    CursoDetalheComponent
-    
+    CursoDetalheComponent,
   ],
   imports: [
     CommonModule
