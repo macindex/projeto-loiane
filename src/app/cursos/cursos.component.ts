@@ -13,6 +13,8 @@ export class CursosComponent implements OnInit {
 
   cursos: string[];
 
+  // cursosService: CursosService
+
   constructor(private cursosService: CursosService) { 
     this.nomePortal = 'http://loiane.training';
 

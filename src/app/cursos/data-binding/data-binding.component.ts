@@ -6,19 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./data-binding.component.css']
 })
 export class DataBindingComponent implements OnInit {
+// url: string = 'http://loiane.com' ;
+// cursoAngular: boolean = true;
+// urlImagem = 'http://lorempixel.com/400/200/cats/'
 
-url: string = 'http://loiane.com' ;
-cursoAngular: boolean = true;
-urlImagem = 'http://lorempixel.com/400/200/cats/';
+// getValor(){
+	
+// }
 
-getValor(){
-	return 1;
-}
-
-getCurtirCurso(){
-	return true;
-}
-
+// getCurtirCurso(){
+// 	return true;
+// }
 
   constructor() { }
 

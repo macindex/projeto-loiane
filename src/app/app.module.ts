@@ -8,6 +8,7 @@ import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { FormsModule } from '@angular/forms';
 import { CursosModule } from './cursos/cursos.module';
+import { DataBindingComponent } from './cursos/data-binding/data-binding.component';
 // import { DataBindingComponent } from './data-binding/data-binding/data-binding.component';
 //import { CursosComponent } from './cursos/cursos.component';
 
@@ -15,7 +16,7 @@ import { CursosModule } from './cursos/cursos.module';
   declarations: [
     AppComponent,
     MeuPrimeiroComponent,
-    MeuPrimeiro2Component,
+    MeuPrimeiro2Component
     // DataBindingComponent,
     // CursosModule
   ],
@@ -23,7 +24,8 @@ import { CursosModule } from './cursos/cursos.module';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    CursosModule,
+    CursosModule
+    
     // DataBindingComponent
     // CursosComponent
   ],
