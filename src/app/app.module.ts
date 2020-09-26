@@ -8,6 +8,7 @@ import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { FormsModule } from '@angular/forms';
 import { CursosModule } from './cursos/cursos.module';
+// import { DataBindingComponent } from './data-binding/data-binding/data-binding.component';
 //import { CursosComponent } from './cursos/cursos.component';
 
 @NgModule({
@@ -15,13 +16,15 @@ import { CursosModule } from './cursos/cursos.module';
     AppComponent,
     MeuPrimeiroComponent,
     MeuPrimeiro2Component,
+    // DataBindingComponent,
     // CursosModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    CursosModule
+    CursosModule,
+    // DataBindingComponent
     // CursosComponent
   ],
   providers: [],
