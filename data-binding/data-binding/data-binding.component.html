@@ -1,0 +1,34 @@
+<section class="property-binding">
+	<article>
+		<h3>Interpolation / Interpolação</h3>
+	<p>String renderizadas com interpolação: {{ url }}</p>
+    <p>Resultado de 1 + 1 é: {{ 1 + 1 }}</p>
+    <p>Resultado de 1 + 1 não é {{ 1 + 1 + getValor() }}</p>
+    <p>Curso de Angular e gosto do curso: {{ cursoAngular && getCurtirCurso() }}</p>
+	 
+	 <!--<p>Resultado de 1 + 1 é: {{ 1 + 1 getValor() }}</p>
+	<p>Curso de Angular e gosto do curso: {{ cursoAngular && getCurtirCurso() }}</p> --> 
+
+
+</article>
+
+<article>
+<h3>Property binding</h3>
+<!-- VALOR DO COMPONENTE NO TEMPLATE
+USA COLCHETES <img src[]='url-imagem'> 
+. FORMATO PADRÃO É ATRAVÉS DE bind-nomedapropriedade 
+. QUANDO NÃO EXISTE UMA PROPRIEDADE NO ELEMENTO USA-SE [attr.colspan]-->
+
+
+<img src="{{ urlImagem }}"> 
+<!-- <img [src]="urlImagem"> PODE TBM SER ASSIM-- Property bind>
+<!-- <img bind-src="urlImagem"> E ASSIM-->
+
+</article>
+
+
+
+
+
+
+</section>
